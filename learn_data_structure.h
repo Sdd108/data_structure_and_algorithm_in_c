@@ -10,3 +10,4 @@
 void printN1(int n);
 void printN2(int n);
 void test_data_structures();
+int maxSubseqSum(int array[], int n);
