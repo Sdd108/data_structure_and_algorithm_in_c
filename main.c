@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include "my_lib.h"
 #include "learn_data_structure.h"
+#include "singleLinkedList.h"
+#include "swapTwoLinkedListNodes.h"
+#include "sorting_algorithms.h"
 
 
 int learn_clang() {
@@ -24,7 +27,9 @@ int learn_clang() {
 }
 
 int learn_data_structure() {
-    test_data_structures();
+//    test_data_structures();
+    TestSingleLinkedList();
+//    testSwapTwoLinkedListNodes();
 
     return 0;
 }
@@ -33,7 +38,9 @@ int learn_data_structure() {
 int main() {
 //    learn_clang();
 
-    learn_data_structure();
+//    learn_data_structure();
+
+    testSortingAlgorithms();
 
     return 0;
 }
